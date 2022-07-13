@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#hades{
+    width: 65%;
+    /* height: 500px; */
+    /* border: 1px solid; */
+    margin: 30px auto;
+}
+header{
+    width: 100%;
+    padding: 30px 35px 30px 45px;
+    display: flex;
+    background-color:#3d5a80 ;
+    border-radius: 5px;
+    margin-bottom: 3%;
+    box-shadow: grey 12px 9px 95px 9px;
+}
+
+header img{
+    width: 52%;
+    height: 108px;
+    margin-right: 40px;
+}
+.hader-info{
+    width:60%;
+    /* display: flex;
+    flex-direction: row; */
+}
+header h1{
+    color: white;
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+}
+header h2{
+    color: white;
+    /* font-size: 28px; */
+    font-family: 'Open Sans', sans-serif;
+}
+#search{
+    width: 100%;
+    padding: 20px 30px;
+    background-color: #3d5a80;
+    border-radius: 5px;
+
+}
+#input{
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.but{
+    padding: 12px 14px;
+    border: none;
+    border-radius: 5px 0 0 5px ;
+    font-size: 15px;
+}
+.blue{
+    position: relative;
+    left: -9px;
+    background-color: transparent;
+    border: 1px solid white;
+    color:white;
+    padding: 11px 15px;
+    border-radius:none ;
+}
+.blue:hover{
+    background-color: white;
+    color: black;
+}
+.bl:hover{
+    background-color: white;
+    color: black;
+}
+.bl{
+    position: relative;
+    left: -15px;
+    background-color: transparent;
+    border: 1px solid white;
+    color:white;
+    padding: 11px 15px;  
+    border-radius: 0 5px 5px 0;  
+}
+/* .blue ,.bl :hover{
+     background-color: white;
+     color: black;
+} */
+.name{
+    width: 100%;
+    border: .1px solid #aaaaaa;
+    margin-top: 48px;
+    /* display: flex; */
+    flex-direction: row;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 3px;
+    box-shadow: 10px 10px 42px #aaaaaa;
+}
+.first{
+    width: 100%;
+    padding: 20px 18px; 
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-weight: 30px;
+    border-bottom: 1px solid black;
+}
+.first span{
+    font-size: 21px;
+    font-weight: bold;
+}
+.numb{
+    width: 28%;
+    display: flex;
+    justify-content: space-between;
+}
+/* .numb img{
+    width: 30px;
+    height: 30px;
+} */
+
+.numb p{
+    font-size: 20px;
+}
+/* .third{
+    border-bottom: none;color: black;
+} */
+/* .second{
+    color: black;
+    margin-right: 32px;
+} */
+#star{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+.footer{
+    width: 100%;
+    padding: 23px 30px;
+    background-color: #3d5a80;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 3px;
+}
+.footer h2{
+    font-weight: bold;
+    color: white;
+    font-size: 1.6em;
+    margin-bottom: 18px;
+}
+.footer input{
+    padding: 12px 145px 9px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-right: 14px;
+}
+.footer .button {
+    padding: 11px 13px 8px 13px;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 15px;
+    background: transparent;
+    color: white;
+    /* margin-left: 20px; */
+}
+header img {
+    width: 47%;
+    height: 120px;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+}
+
+@media only screen and (max-width:1341px) {
+  .footer input{
+    padding: 12px 110px 9px 12px;
+  }
+  header img {
+    width: 47%;
+    height: 100px;
+}
+}
+@media only screen and (max-width:1280px) {
+    header{
+        padding: 30px 4px 21px 49px;
+    }
+    header h1 {
+        font-size: 27px;
+    }
+    header img {
+        width: 45%;
+        height: 88px;
+    }
+    .footer input {
+        padding: 12px 90px 9px 12px;
+    }
+}
+@media only screen and (max-width:1216px){
+    .first span {
+        font-size: 19px;
+    }
+    .footer input {
+        padding: 12px 50px 9px 12px;
+    }
+    header img {
+        width: 38%;
+        height: 77px;
+    }
+}
+@media only screen and (max-width:1170px) {
+    header img {
+        width: 34%;
+        height: 71px;
+        margin-top: 19px;
+    }  
+    .footer input {
+        padding: 12px 31px 9px 12px;
+    }
+    .first span {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .numb p {
+        font-size: 19px;
+    }
+
+}

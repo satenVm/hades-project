@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="hades">
+        <header>
+            <img src="img/hades.png" alt="">
+            <div class="hader-info">
+                <h1>Учет сотрудников в компании</h1>
+                <h2 id="employeesCount">Общее число сотрудников: 3 </h2>
+                <h2 id="bounsCount">Премию получат: 1</h2>
+            </div>
+        </header>
+        <section id="search">
+            <input type="text" id="input" placeholder="Найти сотрудника">
+            <button class="but" id="b-1">Все сотрудники</button>
+            <button class="but blue">На повышеник</button>
+            <button class="but bl" id="b-3">З/П больше 1000$</button>
+        </section>
+        <section class="name" id="employeesList">
+            <!-- <div class="first">
+                <span>Aram</span>
+                <div class="numb">
+                    <p>800$</p>
+                    <div class="numb-img">
+                        <img src="cookie.png" alt="" class="icons" id="cookie">
+                        <img src="delete.png" alt="" class="icons" id="delete">
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="first second">
+                <span>Grig</span>
+                <div class="numb">
+                    <p>3000$</p>
+                    <div class="numb-img">
+                        <img src="cookie.png" alt="" class="icons">
+                        <img src="delete.png" alt="" class="icons">
+                        <img src="star (1).png" alt="" id="star" class="icons">
+                    </div>
+                </div>
+            </div>
+            <div class="first third">
+                <span>Hasmik</span>
+                <div class="numb">
+                    <p>1200$</p>
+                    <div class="numb-img">
+                        <img src="cookie.png" alt="" class="icons">
+                        <img src="delete.png" alt="" class="icons">
+                    </div>
+                </div>
+            </div> -->
+        </section>
+        <section class="footer">
+            <h2>Добавьте нового сотрудника</h2>
+            <form action="" class="form">
+                <input type="text" placeholder="Как его зовут?" id="textInput">
+                <input type="number" placeholder="З/П в $?" id="numberInput">
+                <input type="submit" value="Добавить" class="button">
+            </form>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
